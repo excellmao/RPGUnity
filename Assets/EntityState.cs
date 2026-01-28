@@ -13,17 +13,17 @@ public abstract class EntityState
         this.stateName = stateName;
     }
 
-    public virtual void Enter() 
+    public virtual void Enter()
     {
         Debug.Log("I enter " + stateName);
     }
 
-    public virtual void Update() 
+    public virtual void Update()
     {
         Debug.Log("I run update of " + stateName);
     }
 
-    public virtual void Exit() 
+    public virtual void Exit()
     {
         Debug.Log("I exit " + stateName);
     }
